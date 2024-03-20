@@ -1,0 +1,2061 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.36f1 (7a0645017be0) revision 7996997'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreN' Language: 'en' Physical Memory: 31904 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.36f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/kubas/My project (1)
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+61534
+Successfully changed project path to: C:/Users/kubas/My project (1)
+C:/Users/kubas/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14264] Host "[IP] 192.168.100.157 [Port] 0 [Flags] 2 [Guid] 3536579902 [EditorId] 3536579902 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BOFRDN4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14264] Host "[IP] 192.168.100.157 [Port] 0 [Flags] 2 [Guid] 3536579902 [EditorId] 3536579902 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BOFRDN4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 52.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.36f1 (7a0645017be0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kubas/My project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8073 MB
+    Driver:   31.0.15.4601
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005321 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.393 seconds
+Domain Reload Profiling:
+	ReloadAssembly (393ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (269ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (60ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (15ms)
+			SetupLoadedEditorAssemblies (169ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005116 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.080 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1080ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (940ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (709ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (576ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (46.5 KB). Loaded Objects now: 4294.
+Memory consumption went from 147.2 MB to 147.1 MB.
+Total: 2.546800 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.064300 ms MarkObjects: 2.281300 ms  DeleteObjects: 0.038300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95355.996628 seconds.
+  path: Assets/Animations/Fireball
+  artifactKey: Guid(dfc4d0dad796d454283be177473b80f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animations/Fireball using Guid(dfc4d0dad796d454283be177473b80f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9825556e0f3d3d683f9bd321df83e4') in 0.010611 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.323494 seconds.
+  path: Assets/Animations/Fireball/Fireball.controller
+  artifactKey: Guid(cbeb7135414776646a92448f62080fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animations/Fireball/Fireball.controller using Guid(cbeb7135414776646a92448f62080fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39faad0b4859c6b04d31a2fcf2c45fed') in 0.016307 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.805204 seconds.
+  path: Assets/Animations/Player/Player.controller
+  artifactKey: Guid(266929e4ab3e9cd4eb0fc08af4aa3e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animations/Player/Player.controller using Guid(266929e4ab3e9cd4eb0fc08af4aa3e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a83bb79504bd516debbae3b4ff42750') in 0.006827 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 311.574749 seconds.
+  path: Assets/Animations/Fireball/Fireball_Idle.anim
+  artifactKey: Guid(c026b2fe989cf864a9c18b26cfa47220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animations/Fireball/Fireball_Idle.anim using Guid(c026b2fe989cf864a9c18b26cfa47220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19a4079ec25fd626b4820254679c06c') in 0.007044 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.616995 seconds.
+  path: Assets/Animations/Fireball/Fireball_explode.anim
+  artifactKey: Guid(087eb138081320c4685ddc6d6725b95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animations/Fireball/Fireball_explode.anim using Guid(087eb138081320c4685ddc6d6725b95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7eb98009d9284d2b38f660af3a9dd6') in 0.005741 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004500 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1008ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (847ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (137ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (618ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (547ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4298.
+Memory consumption went from 146.3 MB to 146.3 MB.
+Total: 2.220700 ms (FindLiveObjects: 0.156300 ms CreateObjectMapping: 0.075200 ms MarkObjects: 1.977100 ms  DeleteObjects: 0.011700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.108 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1108ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (888ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (622ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (550ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4301.
+Memory consumption went from 146.3 MB to 146.3 MB.
+Total: 2.283000 ms (FindLiveObjects: 0.170300 ms CreateObjectMapping: 0.063600 ms MarkObjects: 2.034300 ms  DeleteObjects: 0.014500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004846 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Domain Reload Profiling:
+	ReloadAssembly (984ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (618ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (546ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4304.
+Memory consumption went from 146.3 MB to 146.3 MB.
+Total: 2.336600 ms (FindLiveObjects: 0.169400 ms CreateObjectMapping: 0.068400 ms MarkObjects: 2.086500 ms  DeleteObjects: 0.011900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1428.085803 seconds.
+  path: Assets/Scripts/Projectile.cs
+  artifactKey: Guid(81d90ad6512e36843b239a48748d63dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Projectile.cs using Guid(81d90ad6512e36843b239a48748d63dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84951689846fdd83e997de55f7868bf') in 0.012841 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.047878 seconds.
+  path: Assets/Scripts/Projectile.cs
+  artifactKey: Guid(81d90ad6512e36843b239a48748d63dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Projectile.cs using Guid(81d90ad6512e36843b239a48748d63dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d1e21f5f2a0093aa11d2df3536bfa5') in 0.001465 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004572 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1010ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (843ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (122ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (625ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (551ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4307.
+Memory consumption went from 146.3 MB to 146.3 MB.
+Total: 2.278300 ms (FindLiveObjects: 0.170200 ms CreateObjectMapping: 0.064600 ms MarkObjects: 2.029700 ms  DeleteObjects: 0.013500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005117 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1024ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (860ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (631ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (555ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4310.
+Memory consumption went from 146.3 MB to 146.3 MB.
+Total: 2.624400 ms (FindLiveObjects: 0.168500 ms CreateObjectMapping: 0.064300 ms MarkObjects: 2.378600 ms  DeleteObjects: 0.012500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004745 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1026ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (871ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (122ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (647ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (565ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4313.
+Memory consumption went from 146.3 MB to 146.3 MB.
+Total: 2.624400 ms (FindLiveObjects: 0.168100 ms CreateObjectMapping: 0.063400 ms MarkObjects: 2.377900 ms  DeleteObjects: 0.014700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (875ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (649ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (573ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4316.
+Memory consumption went from 146.3 MB to 146.3 MB.
+Total: 2.636000 ms (FindLiveObjects: 0.160700 ms CreateObjectMapping: 0.054800 ms MarkObjects: 2.404500 ms  DeleteObjects: 0.015700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005229 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.022 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1023ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (857ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (122ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (638ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (564ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4319.
+Memory consumption went from 146.3 MB to 146.3 MB.
+Total: 2.601800 ms (FindLiveObjects: 0.174400 ms CreateObjectMapping: 0.075500 ms MarkObjects: 2.339100 ms  DeleteObjects: 0.012300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004785 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1025ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (866ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (647ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (569ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4322.
+Memory consumption went from 146.4 MB to 146.3 MB.
+Total: 2.251900 ms (FindLiveObjects: 0.156600 ms CreateObjectMapping: 0.063000 ms MarkObjects: 2.019200 ms  DeleteObjects: 0.012700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004367 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.081 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1081ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (916ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (137ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (679ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (598ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4325.
+Memory consumption went from 146.4 MB to 146.3 MB.
+Total: 2.444500 ms (FindLiveObjects: 0.144900 ms CreateObjectMapping: 0.061600 ms MarkObjects: 2.221300 ms  DeleteObjects: 0.016100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004588 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.022 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1022ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (862ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (122ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (647ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (572ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4328.
+Memory consumption went from 146.4 MB to 146.3 MB.
+Total: 2.535000 ms (FindLiveObjects: 0.177000 ms CreateObjectMapping: 0.065800 ms MarkObjects: 2.278600 ms  DeleteObjects: 0.013200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.008 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1009ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (854ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (639ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (561ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4331.
+Memory consumption went from 146.4 MB to 146.4 MB.
+Total: 2.354600 ms (FindLiveObjects: 0.162700 ms CreateObjectMapping: 0.053900 ms MarkObjects: 2.124200 ms  DeleteObjects: 0.013400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Domain Reload Profiling:
+	ReloadAssembly (998ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (627ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (555ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4334.
+Memory consumption went from 146.4 MB to 146.4 MB.
+Total: 2.415200 ms (FindLiveObjects: 0.153000 ms CreateObjectMapping: 0.064600 ms MarkObjects: 2.181300 ms  DeleteObjects: 0.015800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004423 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1014ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (862ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (627ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (553ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4337.
+Memory consumption went from 146.4 MB to 146.4 MB.
+Total: 2.677000 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.064900 ms MarkObjects: 2.424000 ms  DeleteObjects: 0.014600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004824 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1003ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (632ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (557ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4340.
+Memory consumption went from 146.4 MB to 146.4 MB.
+Total: 2.440400 ms (FindLiveObjects: 0.177900 ms CreateObjectMapping: 0.093400 ms MarkObjects: 2.155500 ms  DeleteObjects: 0.013200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004498 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.039 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1039ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (884ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (640ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (564ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4343.
+Memory consumption went from 146.4 MB to 146.4 MB.
+Total: 2.269300 ms (FindLiveObjects: 0.167600 ms CreateObjectMapping: 0.065400 ms MarkObjects: 2.023300 ms  DeleteObjects: 0.012400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2864.759535 seconds.
+  path: Assets/Sprites/2D Ice World
+  artifactKey: Guid(0f4c0d1921a7fe6459847e9bab12b815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World using Guid(0f4c0d1921a7fe6459847e9bab12b815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96caa7d659e7cb3938b5da12ebd542d') in 0.015221 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.585260 seconds.
+  path: Assets/Sprites/2D Ice World/Assets
+  artifactKey: Guid(53799227f3e4d874aa23d99537251e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets using Guid(53799227f3e4d874aa23d99537251e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1f6ff27fda2ac4c21fc725e8991c43') in 0.004866 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.276296 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Scenes
+  artifactKey: Guid(ba8feaacf8385f340871a505cd2d2ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Scenes using Guid(ba8feaacf8385f340871a505cd2d2ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c8da28aecc57898423b6849fce1a59') in 0.005769 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.344353 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites
+  artifactKey: Guid(8a48d608dc07b1d4f9eed1e55b9832c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites using Guid(8a48d608dc07b1d4f9eed1e55b9832c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b8bd00a94cf94693724320e8f27e6c') in 0.004838 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.079639 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/ATLAS_ICE_0001.png
+  artifactKey: Guid(5afbff6f96636d34d801464d3179b7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/ATLAS_ICE_0001.png using Guid(5afbff6f96636d34d801464d3179b7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f10410f47f4aa0d1ea9ee65082b3e40') in 0.160609 seconds 
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Iceworld_Background_0001.png
+  artifactKey: Guid(c376948577663234f942e90523f4af7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Iceworld_Background_0001.png using Guid(c376948577663234f942e90523f4af7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad9e1524206860ee38cc5da93c6fdb3') in 0.032557 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.855123 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs
+  artifactKey: Guid(131fb2ae16059fb44bf1c5dec51c2666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs using Guid(131fb2ae16059fb44bf1c5dec51c2666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0483ba047b346d5475d283285b492ed0') in 0.004070 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.043695 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites
+  artifactKey: Guid(ade9a6eec74dda54ba5d291f85441cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites using Guid(ade9a6eec74dda54ba5d291f85441cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5936ef5714fab310c5080402a790ce') in 0.005530 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.582764 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_26_big_L_0001.png
+  artifactKey: Guid(6a45ed97c4432cd4cb22125c7eaf4f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_26_big_L_0001.png using Guid(6a45ed97c4432cd4cb22125c7eaf4f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7991c6f0be16a32ff220598131b376b3') in 0.009533 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_M_0001.png
+  artifactKey: Guid(672282280abe8a542ad449e4f8f915c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_M_0001.png using Guid(672282280abe8a542ad449e4f8f915c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725bdb741a41a577e30d535a1454a8ba') in 0.008423 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019223 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_S_L_0001.png
+  artifactKey: Guid(1403be4901e3e4f4eadf879a58635b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_S_L_0001.png using Guid(1403be4901e3e4f4eadf879a58635b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7e66716ab7efd5a260a89f18b97069') in 0.008869 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_spikes_R_0001.png
+  artifactKey: Guid(0d02672350ac5154ebcff44c0fd341ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_spikes_R_0001.png using Guid(0d02672350ac5154ebcff44c0fd341ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe56d6f2549b25158b62b8a47db3ebd') in 0.007798 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_cube_big_0001.png
+  artifactKey: Guid(662a1a67a3400f84ba4ee1bf57b29a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_cube_big_0001.png using Guid(662a1a67a3400f84ba4ee1bf57b29a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e300bf8ff36eab2445946516212af4fe') in 0.009052 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_decoration_0001.png
+  artifactKey: Guid(c7d886e4fd6c5f14db1233fa944d70d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_decoration_0001.png using Guid(c7d886e4fd6c5f14db1233fa944d70d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b70f235d1788021352c73b79fd77beb') in 0.007554 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_M_0001.png
+  artifactKey: Guid(4229334f3affd924a837bf1ae2c91e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_M_0001.png using Guid(4229334f3affd924a837bf1ae2c91e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5514bb505713464b43419a382e0efcdf') in 0.007945 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Top_0001.png
+  artifactKey: Guid(eab613e534cb0414da4e207bff1bbd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Top_0001.png using Guid(eab613e534cb0414da4e207bff1bbd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def5fb25ce47ae4b605cf4589a8e08e7') in 0.007675 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_S_L_0001.png
+  artifactKey: Guid(ff3f0cddd5930a845ba0640b150371f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_S_L_0001.png using Guid(ff3f0cddd5930a845ba0640b150371f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde1b5b2ed16e3a444505d461a2c2634') in 0.008169 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_S_R_0001.png
+  artifactKey: Guid(ff7c071bc707e9445864f833ed54d9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_S_R_0001.png using Guid(ff7c071bc707e9445864f833ed54d9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffce292c729820847ddba0c748b00603') in 0.008270 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_Door_R_0001.png
+  artifactKey: Guid(5260a3a99fe7a6841bac3c5787280897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_Door_R_0001.png using Guid(5260a3a99fe7a6841bac3c5787280897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2849136ca6dedf86e6c96cb486df1343') in 0.007840 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_M_Door_R_0001.png
+  artifactKey: Guid(41cbc6eb1c4369b41b7a1d543a645a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_M_Door_R_0001.png using Guid(41cbc6eb1c4369b41b7a1d543a645a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39a42ee76232c85a129af488535330c') in 0.007019 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_Top_L_0001.png
+  artifactKey: Guid(876b6089d379fff46964e26bdc9b5c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_Top_L_0001.png using Guid(876b6089d379fff46964e26bdc9b5c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cf1d066db2ffe3380e244ce8616d6a') in 0.007320 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_Top_R_0001.png
+  artifactKey: Guid(dbee1ced89f06d040b7b5765326e6b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_Top_R_0001.png using Guid(dbee1ced89f06d040b7b5765326e6b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197c324dc19fff66cb1142f94eb39f50') in 0.007545 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_E_R_0001.png
+  artifactKey: Guid(c6a8366d4cd06074dbe6a45ca113c660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_E_R_0001.png using Guid(c6a8366d4cd06074dbe6a45ca113c660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fbb72d98a4e9362d0395e1cdc1838f') in 0.007569 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_G_S_L_0001.png
+  artifactKey: Guid(54016c358742df94a8526b5d6d432280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_G_S_L_0001.png using Guid(54016c358742df94a8526b5d6d432280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc800e4d732cdded408e4d191ed7e03') in 0.008127 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_G_26_small_R_0001.png
+  artifactKey: Guid(67cf988529ab2be4e84747947ff4f50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_G_26_small_R_0001.png using Guid(67cf988529ab2be4e84747947ff4f50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797909538db48280de116ac11d73838c') in 0.007537 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowflake_0004.png
+  artifactKey: Guid(c9bada7011ea0db4d995cbea10287c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowflake_0004.png using Guid(c9bada7011ea0db4d995cbea10287c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54a5224508f6887fe8a6055e1be216a') in 0.007727 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowhill_0003.png
+  artifactKey: Guid(7c7d1ba4ac38b134c81f7498bdc4ddca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowhill_0003.png using Guid(7c7d1ba4ac38b134c81f7498bdc4ddca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225ce8045a7e1dfed7ca2063cea0f1db') in 0.007601 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowtree_Top_0001.png
+  artifactKey: Guid(1efd1500386816f4092a597dec192ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowtree_Top_0001.png using Guid(1efd1500386816f4092a597dec192ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836b638b4cf7905600e7decb8d287cbd') in 0.007874 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Water_0004.png
+  artifactKey: Guid(e1c012efaf0fe0c4ba5e4b4cf21e2821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Water_0004.png using Guid(e1c012efaf0fe0c4ba5e4b4cf21e2821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e39612e9519dc7250deabe14d70a685') in 0.007659 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Water_0002.png
+  artifactKey: Guid(a657339af37704c438c21c452da2307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Water_0002.png using Guid(a657339af37704c438c21c452da2307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abee70d0820684da5689b9be22ae3bbc') in 0.008354 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowhill_0001.png
+  artifactKey: Guid(af1944471824f174bb80d64f4b8a5ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowhill_0001.png using Guid(af1944471824f174bb80d64f4b8a5ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae6f1c6bf3848b36d0617f6e06a38e0') in 0.008677 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_M_R_0001.png
+  artifactKey: Guid(784a3a0cfb9d8ea4b9566cf9e73ccec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_M_R_0001.png using Guid(784a3a0cfb9d8ea4b9566cf9e73ccec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f892d3fd0d025a3057ca2e1303869d2') in 0.008346 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_M_L_0001.png
+  artifactKey: Guid(eb06584eb15894c4fa6cd0401717063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_M_L_0001.png using Guid(eb06584eb15894c4fa6cd0401717063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f361aa9f1eea49554d0a5b00c93a41') in 0.008540 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_G_26_small_L_0001.png
+  artifactKey: Guid(61363c9127926df4bb5f4c65fa6ecd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_G_26_small_L_0001.png using Guid(61363c9127926df4bb5f4c65fa6ecd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9df10aaed98ae57d464465ead9b2fb6') in 0.007770 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_platform_0001.png
+  artifactKey: Guid(511779f8a3207c94cb34dd8e660173ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_platform_0001.png using Guid(511779f8a3207c94cb34dd8e660173ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db891c611212d335e2975b2c64cae77') in 0.007841 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Top_26_small_R_0001.png
+  artifactKey: Guid(d3724c7a7e4fc2848946525a26489098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Top_26_small_R_0001.png using Guid(d3724c7a7e4fc2848946525a26489098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4d078da24b8dad352c832513c8dfcf') in 0.007892 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowball_big_0001.png
+  artifactKey: Guid(a680231c4d4cbc14d9f1de7f7299cb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowball_big_0001.png using Guid(a680231c4d4cbc14d9f1de7f7299cb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976d81e7c56018357561ea436ce5f123') in 0.007893 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Top_0003.png
+  artifactKey: Guid(09eccd43b944c9e44808d3de46b78f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Top_0003.png using Guid(09eccd43b944c9e44808d3de46b78f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f28d4f142f17d217d83e93d1d60ed3') in 0.007445 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowball_small_0001.png
+  artifactKey: Guid(e51b3c6d61199974fb87e052671bafa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowball_small_0001.png using Guid(e51b3c6d61199974fb87e052671bafa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f82e43e9f728e2430acfbc638e40c18') in 0.007992 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_spikes_L_0001.png
+  artifactKey: Guid(80c0217a63d03374aacf772308a558ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_spikes_L_0001.png using Guid(80c0217a63d03374aacf772308a558ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b5362254a3fae087c8315ab6ace2f2') in 0.008577 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_L_0001.png
+  artifactKey: Guid(bcbf49dfe057f134fa04e8ac89f1aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_L_0001.png using Guid(bcbf49dfe057f134fa04e8ac89f1aa7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3931ab6eba89d6f16c53c346a67d70') in 0.007465 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.786130 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Example_Scene_Tile.prefab
+  artifactKey: Guid(2ad0aff101b525441baf7a4265e8f3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Example_Scene_Tile.prefab using Guid(2ad0aff101b525441baf7a4265e8f3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e281bfa388b4c123d4ef26242d1be370') in 0.040892 seconds 
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_S_L.asset
+  artifactKey: Guid(e6c1b73823d1b234cacf07de32b5e3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_S_L.asset using Guid(e6c1b73823d1b234cacf07de32b5e3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd6e6221b8ae33222847b00eece056c') in 0.010238 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002211 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_G_26_small_R.asset
+  artifactKey: Guid(b7864fb6c2aacfb478ccecb2d1772813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_G_26_small_R.asset using Guid(b7864fb6c2aacfb478ccecb2d1772813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876f98598e393be07a45dbb85cca8c9e') in 0.007499 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_G_26_small_L.asset
+  artifactKey: Guid(a2732ccb30d9a2843a26fd2fa58c56e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_G_26_small_L.asset using Guid(a2732ccb30d9a2843a26fd2fa58c56e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1b418af173417f5055b41f8cbe2e76') in 0.006631 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Top_26_big_L.asset
+  artifactKey: Guid(5890fc50399b5b842a9a085085c267aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Top_26_big_L.asset using Guid(5890fc50399b5b842a9a085085c267aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2756d3af3eb35eec5a37ce4502761df') in 0.007237 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Top_26_small_L.asset
+  artifactKey: Guid(02c90003782fbd242b28ee55475876d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Top_26_small_L.asset using Guid(02c90003782fbd242b28ee55475876d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e7dd7e593fd187ba86ef3394baa996') in 0.007015 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Igloo_Door_R.asset
+  artifactKey: Guid(00caee1567ab8154f97aab2cff496071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Igloo_Door_R.asset using Guid(00caee1567ab8154f97aab2cff496071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f199d82c9dc1e35ba4a36111ef6f8e') in 0.006650 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Top_spikes.asset
+  artifactKey: Guid(f5aaf7aa6152c6346ae948afe49ad688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Top_spikes.asset using Guid(f5aaf7aa6152c6346ae948afe49ad688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dca3c2e8bf02a7f820e26c3af3624f') in 0.006341 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_S_R.asset
+  artifactKey: Guid(975952cb7ac49fa48a401f2fbb51fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_S_R.asset using Guid(975952cb7ac49fa48a401f2fbb51fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6493874461748cae2223159b5354026e') in 0.006676 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snow_E_L.asset
+  artifactKey: Guid(1d6ed730160e34b4bbad9e3f3b835be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snow_E_L.asset using Guid(1d6ed730160e34b4bbad9e3f3b835be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1ace6f71cc90f87b2fb5e9165632ef') in 0.006467 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snow_decoration_1.asset
+  artifactKey: Guid(a514f3226ab01fa46bba3a887cd8769e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snow_decoration_1.asset using Guid(a514f3226ab01fa46bba3a887cd8769e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c1ad93c3ca833eca0d97b4a3a3b638') in 0.006976 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_Spikes_L.asset
+  artifactKey: Guid(929dbe20c758c044da7f396bc93eb9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_Spikes_L.asset using Guid(929dbe20c758c044da7f396bc93eb9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec3ea6f766515b9effd2bdfbf2e309d') in 0.006575 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snow_G_S_L.asset
+  artifactKey: Guid(df0eb42925431674fa0d8e42a992ee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snow_G_S_L.asset using Guid(df0eb42925431674fa0d8e42a992ee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ae930e8f39bf7085531265ecdb5783') in 0.007885 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snowhill_3.asset
+  artifactKey: Guid(a01d9c2fafafe7c4885321033a0e696e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snowhill_3.asset using Guid(a01d9c2fafafe7c4885321033a0e696e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fdf4fb9fec329a59f0aaa26577e932') in 0.007409 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_Spikes_R.asset
+  artifactKey: Guid(99eb57e460cf3e243b1c6f8dd749a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_Spikes_R.asset using Guid(99eb57e460cf3e243b1c6f8dd749a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5659ac81f6adaa2a108a66772a6ea7') in 0.008696 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_spikes.asset
+  artifactKey: Guid(d6e62404153709c48a227b8f262c836a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_spikes.asset using Guid(d6e62404153709c48a227b8f262c836a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6702f3f463dde529547488b13e797623') in 0.007961 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_L.asset
+  artifactKey: Guid(1b4bb7e54b6892140b30541648e2609c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_L.asset using Guid(1b4bb7e54b6892140b30541648e2609c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c64ff58a472752f892b626ac9d3f49') in 0.007188 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snowtree_Top.asset
+  artifactKey: Guid(3a946b0264af28d4595343d22d7254aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snowtree_Top.asset using Guid(3a946b0264af28d4595343d22d7254aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3006b307bc5b49376b0f805842db7d64') in 0.006844 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Igloo_S_R.asset
+  artifactKey: Guid(387f28dbe233fc4488d755c92500c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Igloo_S_R.asset using Guid(387f28dbe233fc4488d755c92500c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec6220f4ea197deb2a95b8c0567082d') in 0.006883 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snow_G_S_R.asset
+  artifactKey: Guid(e9fec7ce2ac81f84fa7f09f714773150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snow_G_S_R.asset using Guid(e9fec7ce2ac81f84fa7f09f714773150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5455b62af27c9596572791ae5f3cf4') in 0.006953 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Igloo_M_Dorr_R.asset
+  artifactKey: Guid(1dcdcb829b93c2640b4e5f4c47fdc61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Igloo_M_Dorr_R.asset using Guid(1dcdcb829b93c2640b4e5f4c47fdc61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21674c14620a178042fbf442ebb77021') in 0.006808 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snow_platform.asset
+  artifactKey: Guid(d67f7b8a68eb11344815f68326c6ca10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snow_platform.asset using Guid(d67f7b8a68eb11344815f68326c6ca10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf0639ea2a6369e2477d4de88ffd24e') in 0.007341 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Igloo_Top_L.asset
+  artifactKey: Guid(f4ed6ca0ed90a9d42873f64eab88b829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Igloo_Top_L.asset using Guid(f4ed6ca0ed90a9d42873f64eab88b829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6a1f4d129cffe2aa3e1223b7c029ce') in 0.007940 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_G_S_R.asset
+  artifactKey: Guid(754d5745c60fcc54ab6a8ce7ebc0c31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_G_S_R.asset using Guid(754d5745c60fcc54ab6a8ce7ebc0c31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef55878749edfa431dd1dc9115fcc4d') in 0.007140 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snow_G_26_small_R.asset
+  artifactKey: Guid(de2398526eb3ce948b6cacc2bb36436d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Snow_G_26_small_R.asset using Guid(de2398526eb3ce948b6cacc2bb36436d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779e8e84f134b1c28a0c8a5bd61b0fb3') in 0.007665 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_M.asset
+  artifactKey: Guid(3bf51d71278a68a4b942ba3bf246118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Ice_Bot_M.asset using Guid(3bf51d71278a68a4b942ba3bf246118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a63759271cfb8db6333d3e3eaa87cc8') in 0.007263 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 151.435745 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Scenes/Example/2D Penguin Unity Asset Store.png
+  artifactKey: Guid(a24a2a3eacd38a84b91960444c1bfefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Scenes/Example/2D Penguin Unity Asset Store.png using Guid(a24a2a3eacd38a84b91960444c1bfefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d36dbf11fc7dbaae073d38a2ee739d') in 0.011132 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 380.754851 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Example_Scene_Tile.prefab
+  artifactKey: Guid(2ad0aff101b525441baf7a4265e8f3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Example_Scene_Tile.prefab using Guid(2ad0aff101b525441baf7a4265e8f3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1ef238fe4be49098dd7d9ed0279d28') in 0.022822 seconds 
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 19.722299 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Example_Scene_Tile.prefab
+  artifactKey: Guid(2ad0aff101b525441baf7a4265e8f3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Tile_Prefabs/Example_Scene_Tile.prefab using Guid(2ad0aff101b525441baf7a4265e8f3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94aa85ba7a0137eba8cbc25a05f2e680') in 0.019501 seconds 
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004426 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.046 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1046ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (882ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (130ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (650ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (579ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4361.
+Memory consumption went from 151.4 MB to 151.3 MB.
+Total: 2.442200 ms (FindLiveObjects: 0.165500 ms CreateObjectMapping: 0.065800 ms MarkObjects: 2.194800 ms  DeleteObjects: 0.015500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 151.750506 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Iceworld_Background_0002.png
+  artifactKey: Guid(13ac864eef0d0a845998ca52f038dc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Iceworld_Background_0002.png using Guid(13ac864eef0d0a845998ca52f038dc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734c963cfd5822a53dfba5fe805d37e6') in 0.050786 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1052ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (887ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (652ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (576ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4364.
+Memory consumption went from 151.4 MB to 151.3 MB.
+Total: 2.512000 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.060100 ms MarkObjects: 2.246400 ms  DeleteObjects: 0.013900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.407390 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Iceworld_Background_0002.png
+  artifactKey: Guid(13ac864eef0d0a845998ca52f038dc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Iceworld_Background_0002.png using Guid(13ac864eef0d0a845998ca52f038dc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defcc7ad3c2a8be5db9b9fbd99a76343') in 0.051474 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004502 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (857ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (128ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (629ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (553ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4367.
+Memory consumption went from 151.4 MB to 151.4 MB.
+Total: 2.700100 ms (FindLiveObjects: 0.174800 ms CreateObjectMapping: 0.054500 ms MarkObjects: 2.457300 ms  DeleteObjects: 0.012900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 129.296434 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Scenes/Example/2D Penguin Unity Asset Store.png
+  artifactKey: Guid(a24a2a3eacd38a84b91960444c1bfefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Scenes/Example/2D Penguin Unity Asset Store.png using Guid(a24a2a3eacd38a84b91960444c1bfefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07c4c19cc2b6f03ec0091361b95fed5') in 0.045821 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.031966 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_26_big_L_0001.png
+  artifactKey: Guid(6a45ed97c4432cd4cb22125c7eaf4f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_26_big_L_0001.png using Guid(6a45ed97c4432cd4cb22125c7eaf4f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41dec4412585ca00e5d0b843e6f7cc4') in 0.010329 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_R_0001.png
+  artifactKey: Guid(57a47251397ef2e4baffd324de53797b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_R_0001.png using Guid(57a47251397ef2e4baffd324de53797b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f3eca739f5a05faf06ab7eb529c53e') in 0.007995 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_cube_small_0001.png
+  artifactKey: Guid(d2a1219f01ad7474fb1405693af9a914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_cube_small_0001.png using Guid(d2a1219f01ad7474fb1405693af9a914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80fb1bf05bfeee55597f9bc260d733d') in 0.009258 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_cube_big_0001.png
+  artifactKey: Guid(662a1a67a3400f84ba4ee1bf57b29a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_cube_big_0001.png using Guid(662a1a67a3400f84ba4ee1bf57b29a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde9a5baa5bb1f27cb9df5420131d21c') in 0.009165 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_26_small_L_0001.png
+  artifactKey: Guid(d242c554070cbb94fb1df31792dbf2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_26_small_L_0001.png using Guid(d242c554070cbb94fb1df31792dbf2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd6e9e100059d686acffbe76dc4be91') in 0.005663 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_decoration_0001.png
+  artifactKey: Guid(c7d886e4fd6c5f14db1233fa944d70d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_decoration_0001.png using Guid(c7d886e4fd6c5f14db1233fa944d70d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135af8d3c3da2ac7fa8c1d2d12f7dbe4') in 0.006804 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_26_big_R_0001.png
+  artifactKey: Guid(cb7f868351069714bbf974fe367d32e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_26_big_R_0001.png using Guid(cb7f868351069714bbf974fe367d32e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09212c09c74d6b719f3f667f4d9c852') in 0.008513 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_spikes_R_0001.png
+  artifactKey: Guid(0d02672350ac5154ebcff44c0fd341ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_spikes_R_0001.png using Guid(0d02672350ac5154ebcff44c0fd341ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cb4aaec8f82f47c49c74e0acb2d55e') in 0.006127 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_spikes_L_0001.png
+  artifactKey: Guid(80c0217a63d03374aacf772308a558ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_spikes_L_0001.png using Guid(80c0217a63d03374aacf772308a558ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c487e32675b72b05b27e9a20ab72af') in 0.008887 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_26_big_L_0001.png
+  artifactKey: Guid(d5947903d615fb548ad65574331e2da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_26_big_L_0001.png using Guid(d5947903d615fb548ad65574331e2da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15647a154f84c8469e7ddc591692785d') in 0.007819 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.551341 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_26_small_R_0001.png
+  artifactKey: Guid(a207631ca57654f458c3765043a5d38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_26_small_R_0001.png using Guid(a207631ca57654f458c3765043a5d38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e20f20e270972632888654bbc8e9fa2') in 0.007727 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_S_L_0001.png
+  artifactKey: Guid(ff3f0cddd5930a845ba0640b150371f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_G_S_L_0001.png using Guid(ff3f0cddd5930a845ba0640b150371f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dcd523ca5ad6bf53b3d945da36514e') in 0.006736 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.076035 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_platform_0001.png
+  artifactKey: Guid(3169412c48ef6d04482e2ed92f259bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_platform_0001.png using Guid(3169412c48ef6d04482e2ed92f259bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf971f3355799819e39e745e99eea2b') in 0.009496 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Top_0003.png
+  artifactKey: Guid(09eccd43b944c9e44808d3de46b78f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Top_0003.png using Guid(09eccd43b944c9e44808d3de46b78f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4d9326194bc8b21a9841c56f062a98') in 0.006471 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.685875 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Top_26_big_L_0001.png
+  artifactKey: Guid(f4cad411df9b91845a62ad1db3102d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Top_26_big_L_0001.png using Guid(f4cad411df9b91845a62ad1db3102d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dee80130f78ab9e30514231f02746fb') in 0.009572 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Top_26_small_R_0001.png
+  artifactKey: Guid(d3724c7a7e4fc2848946525a26489098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Top_26_small_R_0001.png using Guid(d3724c7a7e4fc2848946525a26489098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a8f59f51dc279400855f54e992368d') in 0.007318 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
