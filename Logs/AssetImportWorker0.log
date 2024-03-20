@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.36f1 (7a0645017be0) revision 7996997'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit CoreN' Language: 'en' Physical Memory: 31904 MB
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'pl' Physical Memory: 16275 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.36f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/kubas/My project (1)
+D:/Gry/olaf
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59253
-Successfully changed project path to: C:/Users/kubas/My project (1)
-C:/Users/kubas/My project (1)
+54190
+Successfully changed project path to: D:/Gry/olaf
+D:/Gry/olaf
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,118 +47,117 @@ C:/Users/kubas/My project (1)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21476] Host "[IP] 192.168.100.157 [Port] 0 [Flags] 2 [Guid] 3227214826 [EditorId] 3227214826 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BOFRDN4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29200] Host "[IP] 172.21.208.1 [Port] 0 [Flags] 2 [Guid] 649697049 [EditorId] 649697049 [Version] 1048832 [Id] WindowsEditor(7,E5470-WERONIKA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21476] Host "[IP] 192.168.100.157 [Port] 0 [Flags] 2 [Guid] 3227214826 [EditorId] 3227214826 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BOFRDN4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29200] Host "[IP] 172.21.208.1 [Port] 0 [Flags] 2 [Guid] 649697049 [EditorId] 649697049 [Version] 1048832 [Id] WindowsEditor(7,E5470-WERONIKA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 53.91 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 122.95 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.36f1 (7a0645017be0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kubas/My project (1)/Assets
+[Subsystems] Discovering subsystems at path D:/Gry/olaf/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
-    Vendor:   NVIDIA
-    VRAM:     8073 MB
-    Driver:   31.0.15.4601
+    Renderer: Intel(R) HD Graphics 530 (ID=0x191b)
+    Vendor:   Intel
+    VRAM:     8137 MB
+    Driver:   26.20.100.8142
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004758 seconds.
+Registered in 0.010507 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.89 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 112.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.387 seconds
+- Completed reload, in  0.923 seconds
 Domain Reload Profiling:
-	ReloadAssembly (387ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (924ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (268ms)
-			LoadAssemblies (60ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (644ms)
+			LoadAssemblies (138ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (60ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (15ms)
-			SetupLoadedEditorAssemblies (169ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (405ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (87ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004901 seconds.
+Registered in 0.007850 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.39 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 114.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.069 seconds
+- Completed reload, in  2.295 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1070ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (2297ms)
+		BeginReloadAssembly (184ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (920ms)
-			LoadAssemblies (61ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1948ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (121ms)
+			SetupTypeCache (375ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (702ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1323ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (569ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (1009ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3837 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 36 unused Assets / (46.4 KB). Loaded Objects now: 4294.
 Memory consumption went from 147.2 MB to 147.1 MB.
-Total: 2.517000 ms (FindLiveObjects: 0.173100 ms CreateObjectMapping: 0.066300 ms MarkObjects: 2.229900 ms  DeleteObjects: 0.047100 ms)
+Total: 5.457900 ms (FindLiveObjects: 0.685400 ms CreateObjectMapping: 0.366000 ms MarkObjects: 4.286200 ms  DeleteObjects: 0.118900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -168,139 +167,451 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5608.494176 seconds.
-  path: Assets/Sprites/2D Ice World/Assets/Documentation
-  artifactKey: Guid(e51a07bc5dc46704fa56bfc007318ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1153764.716057 seconds.
+  path: Assets/Character/Olaf
+  artifactKey: Guid(84af0b1eff0494445a9d6951aa71cd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/2D Ice World/Assets/Documentation using Guid(e51a07bc5dc46704fa56bfc007318ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10343d34d061d2d6cee4248a655c74f1') in 0.010286 seconds 
+Start importing Assets/Character/Olaf using Guid(84af0b1eff0494445a9d6951aa71cd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4c7f9f598760739f1034ae379aebc0') in 0.020280 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 12.263749 seconds.
-  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowflake_0005.png
-  artifactKey: Guid(196a2a87789bb62428afb0ad359a667a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 61.423835 seconds.
+  path: Assets/Character/Dragon Warrior PNG/attack_01.png
+  artifactKey: Guid(2d81263c15e0870429e027cfa336f392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowflake_0005.png using Guid(196a2a87789bb62428afb0ad359a667a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b6dd8556658de731241da1e5ae12e3') in 0.101468 seconds 
+Start importing Assets/Character/Dragon Warrior PNG/attack_01.png using Guid(2d81263c15e0870429e027cfa336f392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9bba46272acead8b05815b746df470') in 0.256360 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowhill_0003.png
-  artifactKey: Guid(7c7d1ba4ac38b134c81f7498bdc4ddca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000041 seconds.
+  path: Assets/Character/Dragon Warrior PNG/walk_02.png
+  artifactKey: Guid(23bc0af480a292c4a92209d33c2e7c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowhill_0003.png using Guid(7c7d1ba4ac38b134c81f7498bdc4ddca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43103d03793639f3bdd65b416e24aaca') in 0.012847 seconds 
+Start importing Assets/Character/Dragon Warrior PNG/walk_02.png using Guid(23bc0af480a292c4a92209d33c2e7c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971abe54538a4790bb3b4fdc6667c98e') in 0.056012 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Water_0002.png
-  artifactKey: Guid(a657339af37704c438c21c452da2307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000044 seconds.
+  path: Assets/Character/Dragon Warrior PNG/die_008.png
+  artifactKey: Guid(e5e0c75a3ed008442be94f5946f15929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Water_0002.png using Guid(a657339af37704c438c21c452da2307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14db8be9e8528ff9c4540b0c171ba0d9') in 0.011868 seconds 
+Start importing Assets/Character/Dragon Warrior PNG/die_008.png using Guid(e5e0c75a3ed008442be94f5946f15929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ee5fd9d04d75fc720963d1ab74f860') in 0.040342 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Water_0003.png
-  artifactKey: Guid(aff556bac7227184983f7b92ed8830e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/Dragon Warrior PNG/flyKick_06.png
+  artifactKey: Guid(dbbdc7d73ab9d7145b33c3e24c7a9087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Water_0003.png using Guid(aff556bac7227184983f7b92ed8830e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff87e8ad777b3fdfc17da2bd913f5e85') in 0.010964 seconds 
+Start importing Assets/Character/Dragon Warrior PNG/flyKick_06.png using Guid(dbbdc7d73ab9d7145b33c3e24c7a9087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b0ed361c08ea40dfb3ed70e4f7244c') in 0.039159 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000006 seconds.
-  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Water_0001.png
-  artifactKey: Guid(1cb435d4e5a4521418c3e6f38ad864a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/Dragon Warrior PNG/dizzy_02.png
+  artifactKey: Guid(99b9eb4aa031cd34b8c4bc76201f84a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Water_0001.png using Guid(1cb435d4e5a4521418c3e6f38ad864a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf76d8103cd7b4baaa1c571a9ebef270') in 0.010935 seconds 
+Start importing Assets/Character/Dragon Warrior PNG/dizzy_02.png using Guid(99b9eb4aa031cd34b8c4bc76201f84a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5c34db057e84fe99f8754b14e4fa10') in 0.049047 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 45.762868 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy@4x.png
-  artifactKey: Guid(b6a96c7c65795c94abf54a62adbf5c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000056 seconds.
+  path: Assets/Character/Dragon Warrior PNG/hurt_02.png
+  artifactKey: Guid(c00d49e25087e51469846d2e22e2fa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy@4x.png using Guid(b6a96c7c65795c94abf54a62adbf5c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c6fae998766ea026cfdadd7da8384b') in 0.015420 seconds 
+Start importing Assets/Character/Dragon Warrior PNG/hurt_02.png using Guid(c00d49e25087e51469846d2e22e2fa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e646a5c1d57f17c522d5f62004046a') in 0.042825 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Vertex.png
-  artifactKey: Guid(e7ddb9213511d984f8b951a7c913d83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000033 seconds.
+  path: Assets/Character/Dragon Warrior PNG/die_002.png
+  artifactKey: Guid(c96b02b971b0a4243881a4f47f4d3179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Vertex.png using Guid(e7ddb9213511d984f8b951a7c913d83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3982bbb6931f0f86194befb14111c200') in 0.010383 seconds 
+Start importing Assets/Character/Dragon Warrior PNG/die_002.png using Guid(c96b02b971b0a4243881a4f47f4d3179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b481bd76f0dac76dfb2d321d77d6d6') in 0.048240 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones@4x.png
-  artifactKey: Guid(61ac40b257b3a994f841856ad38b2b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/Dragon Warrior PNG/walk_03.png
+  artifactKey: Guid(98c5ac8072bb34448b13482b69c7a0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones@4x.png using Guid(61ac40b257b3a994f841856ad38b2b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b4151e4e9815d7099ccfdb6defb38e') in 0.010486 seconds 
+Start importing Assets/Character/Dragon Warrior PNG/walk_03.png using Guid(98c5ac8072bb34448b13482b69c7a0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544e680b605b90e5ba9cb7300ee3ee0b') in 0.037732 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge@3x.png
-  artifactKey: Guid(374643871a39dd44880f1c0eff14f46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000038 seconds.
+  path: Assets/Character/Dragon Warrior PNG/idle_02.png
+  artifactKey: Guid(50a4a2787b97b4d4080a545cb036d0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create_Edge@3x.png using Guid(374643871a39dd44880f1c0eff14f46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8dca76365cb146fa697d34f5ca19e1') in 0.011022 seconds 
+Start importing Assets/Character/Dragon Warrior PNG/idle_02.png using Guid(50a4a2787b97b4d4080a545cb036d0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574bcd1ee6458d65a0f7058b1ed8dd0e') in 0.043053 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Edge@2x.png
-  artifactKey: Guid(3b4e88f5705085042a95960cdcef2561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000048 seconds.
+  path: Assets/Character/Dragon Warrior PNG/strike_05.png
+  artifactKey: Guid(e77df11815124d74ba29a147b3ce910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Edge@2x.png using Guid(3b4e88f5705085042a95960cdcef2561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ae01fde8d58dc8ee3c8cc3c15ee3c2') in 0.009224 seconds 
+Start importing Assets/Character/Dragon Warrior PNG/strike_05.png using Guid(e77df11815124d74ba29a147b3ce910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cc56e56cca74f4f796f1a621a0709a') in 0.044100 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create Bones.png
-  artifactKey: Guid(0e5ae7fe3a07e88429a3e90897c6ab82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/Dragon Warrior PNG/die_003.png
+  artifactKey: Guid(2d0a58967735e414e8ccd71cf74ba3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create Bones.png using Guid(0e5ae7fe3a07e88429a3e90897c6ab82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1489d4d374c7c380120d2c818b4e429') in 0.010053 seconds 
+Start importing Assets/Character/Dragon Warrior PNG/die_003.png using Guid(2d0a58967735e414e8ccd71cf74ba3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829699932e4a441365294431854c6636') in 0.047845 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Vertex@2x.png
-  artifactKey: Guid(a0c33b3a6e0728343b29883d739f1322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000041 seconds.
+  path: Assets/Character/Dragon Warrior PNG/flyKick_03.png
+  artifactKey: Guid(de8bfe7b6a8207b4d8f594997f70cd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Create_Vertex@2x.png using Guid(a0c33b3a6e0728343b29883d739f1322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0049701e3eaf27ea2e9a1de20b06271a') in 0.008069 seconds 
+Start importing Assets/Character/Dragon Warrior PNG/flyKick_03.png using Guid(de8bfe7b6a8207b4d8f594997f70cd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34a6afc1539f0545bbca0d7b9437121') in 0.048271 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones@2x.png
-  artifactKey: Guid(5b7f664b515582d458717c354f6be292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/Dragon Warrior PNG/flyKick_01.png
+  artifactKey: Guid(93b5ee5598a58be4d89455da461d3fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Create Bones@2x.png using Guid(5b7f664b515582d458717c354f6be292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0525f71501a1d269155546de13b1d9') in 0.007701 seconds 
+Start importing Assets/Character/Dragon Warrior PNG/flyKick_01.png using Guid(93b5ee5598a58be4d89455da461d3fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b483d2371555e5806445d868b4bf09a2') in 0.050213 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 6.117193 seconds.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/Dragon Warrior PNG/jumpATK_03.png
+  artifactKey: Guid(f6e89433e48418f4e883f7e3ac6bbf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/jumpATK_03.png using Guid(f6e89433e48418f4e883f7e3ac6bbf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ce68435e88c78248d38c402d63dbb1') in 0.048174 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Character/Dragon Warrior PNG/dizzy_03.png
+  artifactKey: Guid(3cbc28c0984352d4393e38772abab30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/dizzy_03.png using Guid(3cbc28c0984352d4393e38772abab30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860adac3486de25771b164a483e5d428') in 0.049845 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/Dragon Warrior PNG/flyKick_04.png
+  artifactKey: Guid(5ff063ce9242d8840826e75f628b6ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/flyKick_04.png using Guid(5ff063ce9242d8840826e75f628b6ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3212961632fd6e63b753c14d8d016b75') in 0.048359 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/Dragon Warrior PNG/attack_03.png
+  artifactKey: Guid(080098adc5ac9cc428f1a442160eef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/attack_03.png using Guid(080098adc5ac9cc428f1a442160eef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cc0fbb7f975a56474da0f230c84400') in 0.048807 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Character/Dragon Warrior PNG/crouch_ATK_02.png
+  artifactKey: Guid(629e63a13f5fdc0479184fc58e22bb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/crouch_ATK_02.png using Guid(629e63a13f5fdc0479184fc58e22bb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d655ff6d745a3aec86bf22a0aabc00f') in 0.048014 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Character/Dragon Warrior PNG/walk_05.png
+  artifactKey: Guid(9306e39f0f362e24888908e2bc7ab52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/walk_05.png using Guid(9306e39f0f362e24888908e2bc7ab52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77171b1bada1bafb7e46cb0a63bf9dc') in 0.032541 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Character/Dragon Warrior PNG/idle_04.png
+  artifactKey: Guid(f53e5e300297519409f636d0b0aef3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/idle_04.png using Guid(f53e5e300297519409f636d0b0aef3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639945f8b241ad75dab3ea5a3e47d3a7') in 0.041808 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Character/Dragon Warrior PNG/flyKick_02.png
+  artifactKey: Guid(8e62a7946c37bd542a205f31952507d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/flyKick_02.png using Guid(8e62a7946c37bd542a205f31952507d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63614bd920986516eff54b974559eb06') in 0.050540 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Character/Dragon Warrior PNG/strike_03.png
+  artifactKey: Guid(519b39a04c9af67439a2279a77872a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/strike_03.png using Guid(519b39a04c9af67439a2279a77872a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68af6ed96eabdf1db38143aa14c347b0') in 0.048373 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Character/Dragon Warrior PNG/crouch_02.png
+  artifactKey: Guid(4712c1ad024e03b4c97cf0683831cff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/crouch_02.png using Guid(4712c1ad024e03b4c97cf0683831cff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769138dc663fa2f0d05cd7b7486b7a1c') in 0.043526 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Character/Dragon Warrior PNG/jump_02.png
+  artifactKey: Guid(d2df597a04a76de4a96a4c5e9a6f0ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/jump_02.png using Guid(d2df597a04a76de4a96a4c5e9a6f0ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc428814329fa5a899e57d55c5496dcf') in 0.030610 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Character/Dragon Warrior PNG/crouch_ATK_01.png
+  artifactKey: Guid(cfb0994800bda9d46ac37ca2d06f5c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/crouch_ATK_01.png using Guid(cfb0994800bda9d46ac37ca2d06f5c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bf770970a12d3370824461bb3e9932') in 0.043219 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Character/Dragon Warrior PNG/strike_01.png
+  artifactKey: Guid(4b90e2136f82c864199ce0fe6565864e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/strike_01.png using Guid(4b90e2136f82c864199ce0fe6565864e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7148e869f22f7ff820b582951310a2e') in 0.065843 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Character/Dragon Warrior PNG/die_004.png
+  artifactKey: Guid(0d77f73d4d99df547aa70ffcb58767a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/die_004.png using Guid(0d77f73d4d99df547aa70ffcb58767a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7274d124dad3bb56476aa2ce04035133') in 0.045053 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/Dragon Warrior PNG/jumpATK_02.png
+  artifactKey: Guid(c0ce46792cbd15b448935b4e757cbc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Dragon Warrior PNG/jumpATK_02.png using Guid(c0ce46792cbd15b448935b4e757cbc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5ab6ce56255965044601a11ef1584a') in 0.050158 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.251799 seconds.
+  path: Assets/Character/Effects/dashwind_02.png
+  artifactKey: Guid(7ee76aa704bf5874e9c6b413729f72fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Effects/dashwind_02.png using Guid(7ee76aa704bf5874e9c6b413729f72fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cb382da697fcd8c186d60b4f3cc7b8') in 0.031315 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/Effects/fireball_01.png
+  artifactKey: Guid(0869b1e96aac6d34cb086976dc7af826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Effects/fireball_01.png using Guid(0869b1e96aac6d34cb086976dc7af826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3155924dfc891d5d57b828376a16b19f') in 0.026539 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/Effects/fireball_03.png
+  artifactKey: Guid(77f084663dedae54bbc26660c4568bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Effects/fireball_03.png using Guid(77f084663dedae54bbc26660c4568bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1243bdd0b960c2c0ce54b036d31939') in 0.025805 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/Effects/explosion_02.png
+  artifactKey: Guid(10aa3a116ac3b5b48a4baafd59720ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Effects/explosion_02.png using Guid(10aa3a116ac3b5b48a4baafd59720ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb22395d6c245c6cc979c7231eb9a331') in 0.031445 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/Effects/dashwind_05.png
+  artifactKey: Guid(8a8fbecbb5021704b98e2180334900cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Effects/dashwind_05.png using Guid(8a8fbecbb5021704b98e2180334900cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655c43902c67dae1076a3ce3a6d6c097') in 0.032061 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Character/Effects/fireball_02.png
+  artifactKey: Guid(e29ecfc679eed7f4886ea00aa8f39cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Effects/fireball_02.png using Guid(e29ecfc679eed7f4886ea00aa8f39cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f941211be00a4cfb99e1c54876f7fe6') in 0.029268 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Character/Effects/explosion_06.png
+  artifactKey: Guid(59d6a0740f5fa2d43bace77687889e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Effects/explosion_06.png using Guid(59d6a0740f5fa2d43bace77687889e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea1316313ef9904794d623ad6f5b5fc') in 0.028200 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/Effects/potion.png
+  artifactKey: Guid(1fa7ccda57ea232489a40129d872165b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Effects/potion.png using Guid(1fa7ccda57ea232489a40129d872165b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4358836b3f2bdcb4993a8116b491e9da') in 0.037955 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.256855 seconds.
+  path: Assets/Character/Olaf/sprite1.2.png
+  artifactKey: Guid(92af813a04326054caf58907ecf7187c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Character/Olaf/sprite1.2.png using Guid(92af813a04326054caf58907ecf7187c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5c30bd882c5e03d84f1e45827b3abb') in 0.021420 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3201.114732 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Iceworld_Background_0001.png
+  artifactKey: Guid(c376948577663234f942e90523f4af7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Iceworld_Background_0001.png using Guid(c376948577663234f942e90523f4af7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81602da56f4ca9adeaaec64dfc8f6f7') in 0.105852 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.609015 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_Door_L_0001.png
+  artifactKey: Guid(5a682750bb012c645a3d492c7c9267ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_Door_L_0001.png using Guid(5a682750bb012c645a3d492c7c9267ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff06f8f9f7b6550d0d25dd86c07e7a1') in 0.042279 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
   path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_Door_R_0001.png
   artifactKey: Guid(5260a3a99fe7a6841bac3c5787280897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_Door_R_0001.png using Guid(5260a3a99fe7a6841bac3c5787280897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653e714d3aa3e364937c56fd2843da76') in 0.013639 seconds 
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_Door_R_0001.png using Guid(5260a3a99fe7a6841bac3c5787280897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ff56cd40eaffabf48fd9d42b2e33a6') in 0.034848 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.011226 seconds.
+  Time since last request: 0.350309 seconds.
   path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_M_Door_R_0001.png
   artifactKey: Guid(41cbc6eb1c4369b41b7a1d543a645a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_M_Door_R_0001.png using Guid(41cbc6eb1c4369b41b7a1d543a645a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43d1ded39f1576c0c8ea340ed62ef07') in 0.011005 seconds 
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_M_Door_R_0001.png using Guid(41cbc6eb1c4369b41b7a1d543a645a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9a95a1b6981c1826748cdb99d6196b') in 0.029375 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.025031 seconds.
+  Time since last request: 0.069131 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_M_R_0001.png
+  artifactKey: Guid(784a3a0cfb9d8ea4b9566cf9e73ccec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_M_R_0001.png using Guid(784a3a0cfb9d8ea4b9566cf9e73ccec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c91b263107c600862d558488f45574') in 0.029486 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.342733 seconds.
   path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_S_R_0001.png
   artifactKey: Guid(1b3de6ff70e9bd440a749acc6ebaead5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_S_R_0001.png using Guid(1b3de6ff70e9bd440a749acc6ebaead5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10da8f5a2406bb81a197d09ef3f674a5') in 0.012447 seconds 
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Igloo_S_R_0001.png using Guid(1b3de6ff70e9bd440a749acc6ebaead5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc89e6dca5b8d01b1565fe2d5fed7f93') in 0.033510 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.389956 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_decoration_0002.png
+  artifactKey: Guid(fba864cf984f9204aa9795f7a4d6d660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_decoration_0002.png using Guid(fba864cf984f9204aa9795f7a4d6d660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e59a58195e0cc320840495e4c23b03') in 0.030733 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_E_R_0001.png
+  artifactKey: Guid(c6a8366d4cd06074dbe6a45ca113c660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_E_R_0001.png using Guid(c6a8366d4cd06074dbe6a45ca113c660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e1f74778493c1a5aed0fa2822f12ed') in 0.032730 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013696 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_G_26_small_L_0001.png
+  artifactKey: Guid(61363c9127926df4bb5f4c65fa6ecd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_G_26_small_L_0001.png using Guid(61363c9127926df4bb5f4c65fa6ecd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f99a8901b24a5999113ab052d893179') in 0.033422 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_G_M_0001.png
+  artifactKey: Guid(ec9e8f7f5473fc647872bb6d6e07f1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_G_M_0001.png using Guid(ec9e8f7f5473fc647872bb6d6e07f1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2464881dab77012ca76c93eabb88795') in 0.033189 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.057774 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_G_S_L_0001.png
+  artifactKey: Guid(54016c358742df94a8526b5d6d432280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_G_S_L_0001.png using Guid(54016c358742df94a8526b5d6d432280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940452826f9d334fd09296d0f41f84ae') in 0.043321 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowball_big_0001.png
+  artifactKey: Guid(a680231c4d4cbc14d9f1de7f7299cb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snowball_big_0001.png using Guid(a680231c4d4cbc14d9f1de7f7299cb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d3fff264b5ee2336e4e976bfd1f13e') in 0.033327 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024198 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Water_0001.png
+  artifactKey: Guid(1cb435d4e5a4521418c3e6f38ad864a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Water_0001.png using Guid(1cb435d4e5a4521418c3e6f38ad864a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9240852b10e90bb6277659316a8c97f') in 0.038855 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Water_0002.png
+  artifactKey: Guid(a657339af37704c438c21c452da2307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Water_0002.png using Guid(a657339af37704c438c21c452da2307e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f6f2fc01a384369fb4982a3e724702') in 0.034289 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.855490 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_G_26_big_L_0001.png
+  artifactKey: Guid(9ed41c65eadb2f2438941ac229340c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Snow_G_26_big_L_0001.png using Guid(9ed41c65eadb2f2438941ac229340c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe010fb0e074158a486da73b1db3016') in 0.030368 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.046833 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_platform_0001.png
+  artifactKey: Guid(3169412c48ef6d04482e2ed92f259bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_platform_0001.png using Guid(3169412c48ef6d04482e2ed92f259bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9dc0435fe3d44c39c1338215b05361') in 0.033242 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_26_big_L_0001.png
+  artifactKey: Guid(6a45ed97c4432cd4cb22125c7eaf4f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Bot_26_big_L_0001.png using Guid(6a45ed97c4432cd4cb22125c7eaf4f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a73c0000a19f6042ab35579597fd2e2') in 0.035642 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Top_0003.png
+  artifactKey: Guid(09eccd43b944c9e44808d3de46b78f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/2D Ice World/Assets/Sprites/Single Sprites/Ice_Top_0003.png using Guid(09eccd43b944c9e44808d3de46b78f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f114dcd01ab61a6bac320de65a9c46e') in 0.036685 seconds 
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
