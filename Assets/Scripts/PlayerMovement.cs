@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D boxCollider;
     private float wallJumpCooldown;
     private float horizontalInput;
+
+    public CoinManager cm;
    
 
     private void Awake()
@@ -99,6 +101,15 @@ public class PlayerMovement : MonoBehaviour
         anim.SetTrigger("Jump");
 
         
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+       if(other.gameObject.CompareTag("coin"))
+       {
+            Destroy(other.gameObject);
+            cm.coinCount++;
+       }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
