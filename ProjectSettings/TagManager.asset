@@ -6,6 +6,7 @@ TagManager:
   tags:
   - coin
   - player
+  - void
   layers:
   - Default
   - TransparentFX

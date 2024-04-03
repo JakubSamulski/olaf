@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
@@ -110,6 +110,10 @@ public class PlayerMovement : MonoBehaviour
             Destroy(other.gameObject);
             cm.coinCount++;
        }
+       if(other.gameObject.CompareTag("void"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
