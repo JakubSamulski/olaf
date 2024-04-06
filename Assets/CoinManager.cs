@@ -6,6 +6,7 @@ public class CoinManager : MonoBehaviour
 {
     
     public int coinCount;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,12 @@ public class CoinManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+     if(Input.GetKeyDown(KeyCode.E))
+        {
+            coinCount++;
+
+            print("Coin count: " + coinCount);
+        }
     }
+
 }

@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpPower;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
+    [SerializeField] private GameObject player;
+    private Health health;
     private Rigidbody2D body;
 
     private Animator anim;
@@ -23,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        health = GetComponent<Health>();
     }
 
     private void Update()
@@ -112,7 +115,8 @@ public class PlayerMovement : MonoBehaviour
        }
        if(other.gameObject.CompareTag("void"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            health.TakeDamage(1);
+            player.transform.position = new Vector3(0, 0, 0);
         }
     }
 
