@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyPatrol : MonoBehaviour
+public class WitchMovement : MonoBehaviour
 {
     public GameObject pointA;
     public GameObject pointB;
@@ -45,5 +45,4 @@ public class EnemyPatrol : MonoBehaviour
         localScale.x *= -1;
         transform.localScale = localScale;
     }
-
 }

@@ -118,6 +118,10 @@ public class PlayerMovement : MonoBehaviour
             health.TakeDamage(1);
             player.transform.position = new Vector3(0, 0, 0);
         }
+        if(other.gameObject.CompareTag("enemy"))
+        {
+            health.TakeDamage(0.5f);
+                }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
