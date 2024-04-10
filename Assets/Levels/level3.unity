@@ -4818,6 +4818,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6267655235466869811, guid: e2babe0a2b96cf34eb86a239d009b809, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6267655235466869811, guid: e2babe0a2b96cf34eb86a239d009b809, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6267655235466869811, guid: e2babe0a2b96cf34eb86a239d009b809, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -4847,11 +4855,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6267655235466869811, guid: e2babe0a2b96cf34eb86a239d009b809, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 532
+      value: 94
       objectReference: {fileID: 0}
     - target: {fileID: 6267655235466869811, guid: e2babe0a2b96cf34eb86a239d009b809, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -282
+      value: -33
       objectReference: {fileID: 0}
     - target: {fileID: 6267655235466869811, guid: e2babe0a2b96cf34eb86a239d009b809, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6200,6 +6208,7 @@ GameObject:
   - component: {fileID: 794805839}
   - component: {fileID: 794805838}
   - component: {fileID: 794805843}
+  - component: {fileID: 794805844}
   m_Layer: 0
   m_Name: Witch
   m_TagString: witch
@@ -6357,6 +6366,32 @@ MonoBehaviour:
   pointA: {fileID: 1803447393}
   pointB: {fileID: 783596194}
   speed: 1
+--- !u!61 &794805844
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794805837}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.24}
+    newSize: {x: 0.16, y: 0.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.24}
+  m_EdgeRadius: 0
 --- !u!1 &804379408
 GameObject:
   m_ObjectHideFlags: 0
@@ -7903,7 +7938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7076702280258961462, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 71.63
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7076702280258961462, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
       propertyPath: m_LocalPosition.y

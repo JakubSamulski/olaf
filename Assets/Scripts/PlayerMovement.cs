@@ -121,8 +121,13 @@ public class PlayerMovement : MonoBehaviour
         if(other.gameObject.CompareTag("enemy"))
         {
             health.TakeDamage(0.5f);
-                }
+        }
+        if (other.gameObject.CompareTag("witch"))
+        {
+            health.TakeDamage(1);
+        }
     }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
