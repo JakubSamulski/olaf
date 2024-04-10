@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class Health : MonoBehaviour
 {
     [SerializeField] private float startingHealth;
+    
+    [SerializeField] private AudioClip dieSound;
+    
     public float currentHealth { get; private set; }
     // Start is called before the first frame update
     private void Awake()
@@ -26,6 +29,7 @@ public class Health : MonoBehaviour
         }
         else
         {
+            SoundManager.instance.PlaySound(dieSound);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
@@ -34,6 +38,7 @@ public class Health : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             TakeDamage(1);
+            SoundManager.instance.PlaySound(dieSound);
         }
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - void
   - enemy
   - witch
+  - medicine
   layers:
   - Default
   - TransparentFX

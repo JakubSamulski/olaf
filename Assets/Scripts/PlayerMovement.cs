@@ -9,6 +9,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private GameObject player;
+    [SerializeField] private AudioClip jumpingSound;
+    [SerializeField] private AudioClip runningSound;
+    [SerializeField] private AudioClip coinSound;
+    [SerializeField] private AudioClip damageSound;
+    [SerializeField] private AudioClip healthSound;
+    [SerializeField] private AudioClip dieSound;
     private Health health;
     private Rigidbody2D body;
 
@@ -44,8 +50,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         
-
-
         anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("Grounded", isGrounded());
         
@@ -67,6 +71,10 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKey(KeyCode.Space))
             {
                 jump();
+
+                if(Input.GetKeyDown(KeyCode.Space) && isGrounded()){
+                    SoundManager.instance.PlaySound(jumpingSound);
+                }
             }
 
         }
@@ -79,6 +87,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void jump()
     {
+    
        if(isGrounded())
         {
             body.velocity = new Vector2(body.velocity.x, jumpPower);
@@ -110,21 +119,32 @@ public class PlayerMovement : MonoBehaviour
     {
        if(other.gameObject.CompareTag("coin"))
        {
+            SoundManager.instance.PlaySound(coinSound);
             Destroy(other.gameObject);
             cm.coinCount++;
        }
        if(other.gameObject.CompareTag("void"))
         {
+            SoundManager.instance.PlaySound(dieSound);
             health.TakeDamage(1);
             player.transform.position = new Vector3(0, 0, 0);
         }
         if(other.gameObject.CompareTag("enemy"))
         {
+            SoundManager.instance.PlaySound(damageSound);
             health.TakeDamage(0.5f);
         }
         if (other.gameObject.CompareTag("witch"))
         {
+            SoundManager.instance.PlaySound(damageSound);
             health.TakeDamage(1);
+
+        }
+        if (other.gameObject.CompareTag("medicine"))
+        {
+            SoundManager.instance.PlaySound(healthSound);
+            Destroy(other.gameObject);
+            health.TakeDamage(-0.5f);
         }
     }
 
