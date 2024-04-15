@@ -145,9 +145,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7076702280258961465}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7, y: 7, z: 7}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7076702279145943757}
@@ -220,18 +220,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0023875087, y: -0.033718906}
+  m_Offset: {x: -0.03010767, y: 0.004268013}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.24}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 5.12, y: 5.12}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.14044282, y: 0.19612686}
+  m_Size: {x: 0.19588314, y: 0.27210075}
   m_EdgeRadius: 0
 --- !u!50 &7076702280258961461
 Rigidbody2D:
@@ -275,6 +275,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   player: {fileID: 7076702280258961465}
+  jumpingSound: {fileID: 8300000, guid: 175dd87a056a9b541b52a335d1ddadcd, type: 3}
+  runningSound: {fileID: 8300000, guid: fdc70f90c14184f4fab6d5cdf31f38dd, type: 3}
+  coinSound: {fileID: 8300000, guid: c07b18c3bebcb17429fdd45dda130175, type: 3}
+  damageSound: {fileID: 8300000, guid: 05e0f2a8de55c7b45a07b46fc529e783, type: 3}
+  healthSound: {fileID: 8300000, guid: 60474f5765b98924f882289ff128858e, type: 3}
+  dieSound: {fileID: 8300000, guid: 915a3f40f91ac694bb4effd0f17de862, type: 3}
   cm: {fileID: 0}
 --- !u!95 &7076702280258961467
 Animator:
@@ -335,3 +341,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
+  dieSound: {fileID: 8300000, guid: 05e0f2a8de55c7b45a07b46fc529e783, type: 3}

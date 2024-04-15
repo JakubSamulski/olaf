@@ -7894,14 +7894,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7076702280258961456, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
-      propertyPath: dieSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 05e0f2a8de55c7b45a07b46fc529e783, type: 3}
-    - target: {fileID: 7076702280258961457, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
-      propertyPath: fireballs.Array.size
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 7076702280258961457, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
       propertyPath: fireballs.Array.data[0]
       value: 
@@ -7945,6 +7937,18 @@ PrefabInstance:
     - target: {fileID: 7076702280258961462, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
       propertyPath: m_RootOrder
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7076702280258961462, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7076702280258961462, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7076702280258961462, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7076702280258961462, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7994,30 +7998,6 @@ PrefabInstance:
       propertyPath: cm
       value: 
       objectReference: {fileID: 1599822109}
-    - target: {fileID: 7076702280258961466, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
-      propertyPath: dieSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 915a3f40f91ac694bb4effd0f17de862, type: 3}
-    - target: {fileID: 7076702280258961466, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
-      propertyPath: coinSound
-      value: 
-      objectReference: {fileID: 8300000, guid: c07b18c3bebcb17429fdd45dda130175, type: 3}
-    - target: {fileID: 7076702280258961466, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
-      propertyPath: damageSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 05e0f2a8de55c7b45a07b46fc529e783, type: 3}
-    - target: {fileID: 7076702280258961466, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
-      propertyPath: healthSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 60474f5765b98924f882289ff128858e, type: 3}
-    - target: {fileID: 7076702280258961466, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
-      propertyPath: jumpingSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 175dd87a056a9b541b52a335d1ddadcd, type: 3}
-    - target: {fileID: 7076702280258961466, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
-      propertyPath: runningSound
-      value: 
-      objectReference: {fileID: 8300000, guid: fdc70f90c14184f4fab6d5cdf31f38dd, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
 --- !u!1001 &1047138100

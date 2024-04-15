@@ -42,11 +42,11 @@ public class PlayerMovement : MonoBehaviour
         //flip the character
         if(horizontalInput > 0.01f) 
         {
-            transform.localScale = new Vector3(7, 7, 7);
+            transform.localScale = new Vector3(4, 4, 4);
         }
         else if(horizontalInput < -0.01f)
         {
-            transform.localScale = new Vector3(-7, 7, 7);
+            transform.localScale = new Vector3(-4, 4, 4);
         }
 
         
