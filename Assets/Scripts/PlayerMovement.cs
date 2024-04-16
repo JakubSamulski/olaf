@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     private float wallJumpCooldown;
     private float horizontalInput;
 
-    public CoinManager cm;
+    public CoinManager cm; 
    
 
     private void Awake()

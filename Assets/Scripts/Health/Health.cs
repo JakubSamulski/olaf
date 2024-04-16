@@ -8,13 +8,14 @@ public class Health : MonoBehaviour
     [SerializeField] private float startingHealth;
     
     [SerializeField] private AudioClip dieSound;
+    private UIManager uIManager;
     
     public float currentHealth { get; private set; }
     // Start is called before the first frame update
     private void Awake()
     {
-      
         currentHealth = startingHealth;
+        
     }
 
     public void TakeDamage(float damage)
@@ -25,12 +26,17 @@ public class Health : MonoBehaviour
         print(currentHealth);
         if (currentHealth > 0)
         {
+            
+        } 
+        else if (currentHealth == 0){
+            uIManager = FindObjectOfType<UIManager>();
+            uIManager.GameOver();
 
         }
         else
         {
             SoundManager.instance.PlaySound(dieSound);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            
         }
     }
     public void Update()
