@@ -10,6 +10,7 @@ TagManager:
   - enemy
   - witch
   - medicine
+  - fireball
   layers:
   - Default
   - TransparentFX

@@ -9,7 +9,11 @@ public class EnemyPatrol : MonoBehaviour
     private Rigidbody2D rigidbody;
     private Animator animator;
     private Transform currentPoint;
+   private EnemyHealth enemyHealth;
     public float speed;
+    [SerializeField] private float startingHealth;
+    private float currentHealth;
+
     
     void Start()
     {
@@ -17,6 +21,8 @@ public class EnemyPatrol : MonoBehaviour
         animator = GetComponent<Animator>();
         currentPoint = pointB.transform;
         animator.SetBool("isRunning", true);
+        enemyHealth = GetComponent<EnemyHealth>();
+        currentHealth = startingHealth;
     }
 
     // Update is called once per frame
@@ -44,6 +50,23 @@ public class EnemyPatrol : MonoBehaviour
         Vector3 localScale = transform.localScale;
         localScale.x *= -1;
         transform.localScale = localScale;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("fireball"))
+        {
+            print(currentHealth);
+            if (currentHealth <= 0)
+            {
+                this.gameObject.SetActive(false);
+            }
+            else
+            {
+                currentHealth -=1;
+                enemyHealth.TakeDamage(1);
+            }
+        }   
     }
 
 }
