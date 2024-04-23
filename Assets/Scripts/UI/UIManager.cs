@@ -49,7 +49,7 @@ public class UIManager : MonoBehaviour
     //Main Menu
     public void MainMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(0);
         Time.timeScale = 1;
     }
 
