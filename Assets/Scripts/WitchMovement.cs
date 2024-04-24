@@ -6,9 +6,13 @@ public class WitchMovement : MonoBehaviour
 {
     public GameObject pointA;
     public GameObject pointB;
+    public GameObject player;
+    [SerializeField]private PlayerMovement playerMovement;
     private Rigidbody2D rigidbody;
     private Animator animator;
     private Transform currentPoint;
+    private EnemyHealth enemyHealth;
+
     public float speed;
     
     void Start()
@@ -17,6 +21,8 @@ public class WitchMovement : MonoBehaviour
         animator = GetComponent<Animator>();
         currentPoint = pointB.transform;
         animator.SetBool("isRunning", true);
+        enemyHealth = GetComponent<EnemyHealth>();
+
     }
 
     // Update is called once per frame
@@ -38,11 +44,30 @@ public class WitchMovement : MonoBehaviour
             flip();
             currentPoint = pointB.transform;
         }
+
+        float seperation = Vector3.Distance(this.transform.position, player.transform.position);
+        if (seperation < 5)
+        {
+            attack();
+        }
+
+    }
+
+    private void attack()
+    {
+        playerMovement.getHit();
     }
 
     private void flip(){
         Vector3 localScale = transform.localScale;
         localScale.x *= -1;
         transform.localScale = localScale;
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("fireball"))
+        {
+            enemyHealth.TakeDamage(1);
+        }
     }
 }

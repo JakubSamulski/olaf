@@ -55,17 +55,8 @@ public class EnemyPatrol : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("fireball"))
-        {
-            print(currentHealth);
-            if (currentHealth <= 0)
-            {
-                this.gameObject.SetActive(false);
-            }
-            else
-            {
-                currentHealth -=1;
-                enemyHealth.TakeDamage(1);
-            }
+        {  
+            enemyHealth.TakeDamage(1);
         }   
     }
 

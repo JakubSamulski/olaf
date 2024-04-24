@@ -154,6 +154,10 @@ public class PlayerMovement : MonoBehaviour
        
     }
 
+    public void getHit()
+    {
+        print("got hit");
+    }
 
     private bool isGrounded()
     {

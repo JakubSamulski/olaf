@@ -103,7 +103,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 404763b3e4b47de45b53b7990368e028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthSlider: {fileID: 0}
+  healthSlider: {fileID: 3290373076780550628}
+  health: {fileID: 6701514090722897023}
 --- !u!1 &3483480793069652453
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,7 +503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67e862cd361afa4980873d862c7eaea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 3
+  healthBar: {fileID: 958490110756988883}
 --- !u!1 &5403218998615380948
 GameObject:
   m_ObjectHideFlags: 0
