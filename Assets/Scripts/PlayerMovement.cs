@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioClip dieSound;
     private Health health;
     private Rigidbody2D body;
+    private Boolean isSlowed;
+    private float slowDownElapsed;
 
     private Animator anim;
     private BoxCollider2D boxCollider;
@@ -27,7 +30,8 @@ public class PlayerMovement : MonoBehaviour
    
 
     private void Awake()
-    {
+    {   
+        isSlowed = false;
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
@@ -36,6 +40,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+
+       checkForSlowDown(10);
+       
 
         horizontalInput = Input.GetAxis("Horizontal");
 
@@ -83,6 +90,27 @@ public class PlayerMovement : MonoBehaviour
             wallJumpCooldown += Time.deltaTime;
         }
 
+    }
+
+    private void checkForSlowDown(float slowDownTime)
+    {
+
+        if (isSlowed)
+        {
+            speed = 2.5f;
+            slowDownElapsed += Time.deltaTime;
+        }
+        else
+        {
+            slowDownElapsed = 0;
+        }
+
+        if(slowDownTime < slowDownElapsed)
+        {
+            speed = 10;
+            isSlowed = false;
+        }
+        
     }
 
     private void jump()
@@ -154,9 +182,25 @@ public class PlayerMovement : MonoBehaviour
        
     }
 
-    public void getHit()
+    public void getAttackedBySpell(int spellId)
     {
-        print("got hit");
+        
+        switch (spellId)
+        {
+            case 0:
+                health.TakeDamage(1f);
+                break;
+            case 1:
+                body.velocity = new Vector2(body.velocity.x, 30);
+                float horizontalDirection = Mathf.Sign(transform.position.x);
+                body.AddForce(new Vector2(20 * horizontalDirection, 0f), ForceMode2D.Impulse);
+                break;
+            case 2:
+                isSlowed = true;
+                break;
+        }
+
+
     }
 
     private bool isGrounded()

@@ -2747,17 +2747,21 @@ PrefabInstance:
       propertyPath: fireballs.Array.data[9]
       value: 
       objectReference: {fileID: 108929532}
+    - target: {fileID: 7076702280258961460, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7076702280258961462, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7076702280258961462, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 57.57
+      value: -5.03
       objectReference: {fileID: 0}
     - target: {fileID: 7076702280258961462, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.35
+      value: -0.17
       objectReference: {fileID: 0}
     - target: {fileID: 7076702280258961462, guid: 3c2e89d55df3a3e409613da724893c37, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8585,11 +8589,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6267655235466869811, guid: e2babe0a2b96cf34eb86a239d009b809, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -9.6615
+      value: 204
       objectReference: {fileID: 0}
     - target: {fileID: 6267655235466869811, guid: e2babe0a2b96cf34eb86a239d009b809, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1.6774
+      value: -130
       objectReference: {fileID: 0}
     - target: {fileID: 6267655235466869811, guid: e2babe0a2b96cf34eb86a239d009b809, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

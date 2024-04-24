@@ -12,6 +12,8 @@ public class WitchMovement : MonoBehaviour
     private Animator animator;
     private Transform currentPoint;
     private EnemyHealth enemyHealth;
+    private float timeSinceAttack = 0.0f;
+    public GameObject circle;
 
     public float speed;
     
@@ -46,16 +48,32 @@ public class WitchMovement : MonoBehaviour
         }
 
         float seperation = Vector3.Distance(this.transform.position, player.transform.position);
-        if (seperation < 5)
+        float attackCooldown = 3.0f;
+        timeSinceAttack += Time.deltaTime;
+        if (seperation < 5 &&timeSinceAttack>attackCooldown)
         {
             attack();
+            timeSinceAttack = 0.0f;
         }
 
     }
 
     private void attack()
     {
-        playerMovement.getHit();
+        int spell = Random.Range(0, 3);
+        if (spell == 0)
+        {
+            circle.GetComponent<SpriteRenderer>().color = new Color(255, 255, 0, 0.3f);
+        }
+        else if (spell == 1)
+        {
+            circle.GetComponent<SpriteRenderer>().color = new Color(255, 0, 0, 0.3f);
+        }
+        else
+        {
+            circle.GetComponent<SpriteRenderer>().color = new Color(0, 255, 1, 0.3f);
+        }
+        playerMovement.getAttackedBySpell(spell);
     }
 
     private void flip(){

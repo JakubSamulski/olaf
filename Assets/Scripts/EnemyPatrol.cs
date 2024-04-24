@@ -11,9 +11,10 @@ public class EnemyPatrol : MonoBehaviour
     private Transform currentPoint;
    private EnemyHealth enemyHealth;
     public float speed;
+    public GameObject sword;
     [SerializeField] private float startingHealth;
     private float currentHealth;
-
+    private bool isAttacking = false;
     
     void Start()
     {
@@ -28,6 +29,23 @@ public class EnemyPatrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
+        if (isAttacking)
+        {
+            sword.transform.Rotate(Vector3.back, 400 * Time.deltaTime);
+            print("wrod rotation "+sword.transform.rotation.eulerAngles.z);
+        }
+
+        if (sword.transform.rotation.eulerAngles.z < 300)
+        {
+            isAttacking = false;
+            sword.transform.eulerAngles = new Vector3(
+                 sword.transform.eulerAngles.x,
+                 sword.transform.eulerAngles.y,
+                 -10f);
+        }
+
         Vector2 point = currentPoint.position - transform.position;
         if (currentPoint == pointB.transform){
             rigidbody.velocity = new Vector2(speed, 0);
@@ -50,6 +68,15 @@ public class EnemyPatrol : MonoBehaviour
         Vector3 localScale = transform.localScale;
         localScale.x *= -1;
         transform.localScale = localScale;
+        flipSword();
+    }
+
+    private void flipSword()
+    {
+        Vector3 localScale = sword.transform.localScale;
+        localScale.x *= -1;
+        sword.transform.localScale = localScale;
+        sword.transform.Rotate(0, 180, 0);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -57,7 +84,12 @@ public class EnemyPatrol : MonoBehaviour
         if (other.gameObject.CompareTag("fireball"))
         {  
             enemyHealth.TakeDamage(1);
-        }   
+        }
+        if(other.gameObject.CompareTag("player"))
+        {
+            isAttacking = true;
+        }
+        
     }
 
 }
