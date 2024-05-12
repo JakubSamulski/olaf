@@ -7493,6 +7493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 4
+  coinCount: 0
 --- !u!61 &827643602
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8158,6 +8159,7 @@ MonoBehaviour:
   damageSound: {fileID: 0}
   healthSound: {fileID: 0}
   dieSound: {fileID: 0}
+  levelMove: {fileID: 0}
   cm: {fileID: 0}
 --- !u!50 &918553441
 Rigidbody2D:
@@ -13342,7 +13344,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb4e19468d8f28e44b9974b4b92f427a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinCount: 0
 --- !u!4 &1599822110
 Transform:
   m_ObjectHideFlags: 0
@@ -17696,7 +17697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthSlider: {fileID: 2093675350}
-  health: {fileID: 0}
+  health: {fileID: 794805845}
 --- !u!114 &2093675350
 MonoBehaviour:
   m_ObjectHideFlags: 0

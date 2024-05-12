@@ -2,10 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CoinManager : MonoBehaviour
+
+// static class to hold global variables, etc.
+static class Globals
 {
-    
-    public int coinCount;
+    // global int
+    public static int counter;
+
+}
+
+    public class CoinManager : MonoBehaviour
+{
+
+
+
+    public void addCoin()
+    {
+        Globals.counter++;
+    }
+
+    public int getCoins()
+    {
+        return Globals.counter;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -18,9 +37,9 @@ public class CoinManager : MonoBehaviour
     {
      if(Input.GetKeyDown(KeyCode.Y))
         {
-            coinCount++;
+            Globals.counter++;
 
-            print("Coin count: " + coinCount);
+            print("Coin count: " + Globals.counter);
         }
     }
 

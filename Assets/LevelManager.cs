@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     public int sceneBuildIndex;
-    
+    public int coinCount;
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D other){
         print("Trigger entered");
@@ -15,5 +15,11 @@ public class LevelManager : MonoBehaviour
             print("Switching scene to: " + sceneBuildIndex);
             SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
         }
+    }
+
+
+    private void Update()
+    {
+       
     }
 }

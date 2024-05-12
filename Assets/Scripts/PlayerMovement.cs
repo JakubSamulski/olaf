@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioClip damageSound;
     [SerializeField] private AudioClip healthSound;
     [SerializeField] private AudioClip dieSound;
+    [SerializeField] private GameObject levelMove;
     private Health health;
     private Rigidbody2D body;
     private Boolean isSlowed;
@@ -40,8 +41,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-
-       checkForSlowDown(10);
+        checkForSlowDown(10);
        
 
         horizontalInput = Input.GetAxis("Horizontal");
@@ -149,7 +149,7 @@ public class PlayerMovement : MonoBehaviour
        {
             SoundManager.instance.PlaySound(coinSound);
             Destroy(other.gameObject);
-            cm.coinCount++;
+            cm.addCoin();
        }
        if(other.gameObject.CompareTag("void"))
         {
