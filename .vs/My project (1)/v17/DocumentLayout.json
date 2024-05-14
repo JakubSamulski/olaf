@@ -3,27 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\kubas\\My project (1)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\kubas\\my project (1)\\assets\\scripts\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kubas\\My project (1)\\assets\\scripts\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\kubas\\my project (1)\\assets\\scripts\\witchmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\witchmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kubas\\My project (1)\\assets\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kubas\\My project (1)\\assets\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\kubas\\my project (1)\\assets\\scripts\\ui\\leaderboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\leaderboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{722D157D-2BBA-1EBF-520C-3466FCD87C41}|Dan.csproj|C:\\Users\\kubas\\My project (1)\\assets\\leaderboardcreator\\scripts\\main\\leaderboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{722D157D-2BBA-1EBF-520C-3466FCD87C41}|Dan.csproj|solutionrelative:assets\\leaderboardcreator\\scripts\\main\\leaderboards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kubas\\My project (1)\\assets\\enemyhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kubas\\My project (1)\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\kubas\\my project (1)\\assets\\enemyhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kubas\\My project (1)\\assets\\scripts\\witchmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\witchmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kubas\\My project (1)\\assets\\scripts\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kubas\\My project (1)\\assets\\scripts\\health\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\kubas\\my project (1)\\assets\\scripts\\health\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\kubas\\My project (1)\\assets\\scripts\\health\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,11 +54,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Leaderboards.cs",
+              "DocumentMoniker": "C:\\Users\\kubas\\My project (1)\\Assets\\LeaderboardCreator\\Scripts\\Main\\Leaderboards.cs",
+              "RelativeDocumentMoniker": "Assets\\LeaderboardCreator\\Scripts\\Main\\Leaderboards.cs",
+              "ToolTip": "C:\\Users\\kubas\\My project (1)\\Assets\\LeaderboardCreator\\Scripts\\Main\\Leaderboards.cs",
+              "RelativeToolTip": "Assets\\LeaderboardCreator\\Scripts\\Main\\Leaderboards.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T21:30:49.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeaderboardManager.cs",
+              "DocumentMoniker": "C:\\Users\\kubas\\My project (1)\\Assets\\Scripts\\UI\\LeaderboardManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\LeaderboardManager.cs",
+              "ToolTip": "C:\\Users\\kubas\\My project (1)\\Assets\\Scripts\\UI\\LeaderboardManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\LeaderboardManager.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAD4v0sAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:10:00.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\kubas\\My project (1)\\Assets\\Scripts\\UI\\Menu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Menu.cs",
+              "ToolTip": "C:\\Users\\kubas\\My project (1)\\Assets\\Scripts\\UI\\Menu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Menu.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:18:00.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CoinManager.cs",
+              "DocumentMoniker": "C:\\Users\\kubas\\My project (1)\\Assets\\CoinManager.cs",
+              "RelativeDocumentMoniker": "Assets\\CoinManager.cs",
+              "ToolTip": "C:\\Users\\kubas\\My project (1)\\Assets\\CoinManager.cs",
+              "RelativeToolTip": "Assets\\CoinManager.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAIwBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T14:30:27.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "C:\\Users\\kubas\\My project (1)\\Assets\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\LevelManager.cs",
+              "ToolTip": "C:\\Users\\kubas\\My project (1)\\Assets\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\LevelManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T14:19:40.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "EnemyPatrol.cs",
               "DocumentMoniker": "C:\\Users\\kubas\\My project (1)\\Assets\\Scripts\\EnemyPatrol.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyPatrol.cs",
@@ -46,25 +130,23 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyPatrol.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwCMAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T16:04:45.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T16:04:45.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "EnemyHealthBar.cs",
               "DocumentMoniker": "C:\\Users\\kubas\\My project (1)\\Assets\\EnemyHealthBar.cs",
               "RelativeDocumentMoniker": "Assets\\EnemyHealthBar.cs",
               "ToolTip": "C:\\Users\\kubas\\My project (1)\\Assets\\EnemyHealthBar.cs",
               "RelativeToolTip": "Assets\\EnemyHealthBar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T15:36:49.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T15:36:49.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "WitchMovement.cs",
               "DocumentMoniker": "C:\\Users\\kubas\\My project (1)\\Assets\\Scripts\\WitchMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WitchMovement.cs",
@@ -72,12 +154,11 @@
               "RelativeToolTip": "Assets\\Scripts\\WitchMovement.cs",
               "ViewState": "AQIAAC8AAAAAAAAAAAAcwEkAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T15:09:04.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T15:09:04.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Health.cs",
               "DocumentMoniker": "C:\\Users\\kubas\\My project (1)\\Assets\\Scripts\\Health\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Health\\Health.cs",
@@ -85,12 +166,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Health\\Health.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAQwBwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T13:46:57.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T13:46:57.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "HealthBar.cs",
               "DocumentMoniker": "C:\\Users\\kubas\\My project (1)\\Assets\\Scripts\\Health\\HealthBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Health\\HealthBar.cs",
@@ -98,21 +178,19 @@
               "RelativeToolTip": "Assets\\Scripts\\Health\\HealthBar.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T13:44:23.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T13:44:23.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\kubas\\My project (1)\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\kubas\\My project (1)\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAWwFIAAABCAAAA",
+              "ViewState": "AQIAAIcAAAAAAAAAAAD4v6QAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T18:24:45.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T18:24:45.07Z"
             }
           ]
         }

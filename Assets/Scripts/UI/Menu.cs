@@ -5,9 +5,8 @@ using Dan.Main;
 public class Menu : MonoBehaviour
 {
 
-    private string leaderboardPublicKey = "6b6834f35c4a162af15cd15d62a9af8e701039bbe4e1e3a34a3524955b078e5d";
     public void onPlayButton(){
-        SceneManager.LoadScene(1, LoadSceneMode.Single);
+        SceneManager.LoadScene("Levels/level1", LoadSceneMode.Single);
     }
 
     public void onMenuButton(){
@@ -21,22 +20,9 @@ public class Menu : MonoBehaviour
 #endif
     }
 
-    public void onLeaderboardGetButton()
+    public void onLeaderboardButton()
     {
-        CoinManager coinManager = new CoinManager();
-        int coins = coinManager.getCoins();
-        LeaderboardCreator.GetLeaderboard(leaderboardPublicKey, ((msg) =>
-        {
-            for (int i = 0; i < msg.Length; i++)
-            {
-                print(msg[i].Username + " " + msg[i].Score);
-            }
-        }));
-    }
-
-    public void onLeaderboardAddButton()
-    {
-        LeaderboardCreator.UploadNewEntry(leaderboardPublicKey, "Player", 100);
+        SceneManager.LoadScene(5, LoadSceneMode.Single);
     }
 }
 
