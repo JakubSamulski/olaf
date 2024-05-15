@@ -11,6 +11,7 @@ TagManager:
   - witch
   - medicine
   - fireball
+  - spikes
   layers:
   - Default
   - TransparentFX

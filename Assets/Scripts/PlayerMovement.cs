@@ -174,6 +174,11 @@ public class PlayerMovement : MonoBehaviour
             Destroy(other.gameObject);
             health.TakeDamage(-0.5f);
         }
+        if (other.gameObject.CompareTag("spikes"))
+        {
+            SoundManager.instance.PlaySound(healthSound);
+            health.TakeDamage(0.5f);
+        }
     }
 
 
