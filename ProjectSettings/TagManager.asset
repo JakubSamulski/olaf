@@ -12,6 +12,7 @@ TagManager:
   - medicine
   - fireball
   - spikes
+  - fallingSpike
   layers:
   - Default
   - TransparentFX

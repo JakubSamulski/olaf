@@ -179,6 +179,12 @@ public class PlayerMovement : MonoBehaviour
             SoundManager.instance.PlaySound(healthSound);
             health.TakeDamage(0.5f);
         }
+        if (other.gameObject.CompareTag("fallingSpike"))
+        {
+            SoundManager.instance.PlaySound(healthSound);
+            Destroy(other.gameObject);
+            health.TakeDamage(0.5f);
+        }
     }
 
 
