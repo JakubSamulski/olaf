@@ -13,6 +13,10 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
 
+    public void onTutorialButton(){
+        SceneManager.LoadScene("Levels/level0", LoadSceneMode.Single);
+    }
+
     public void OnQuitButton(){
         Application.Quit();
 #if UNITY_EDITOR
