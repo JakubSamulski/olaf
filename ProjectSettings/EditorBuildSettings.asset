@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/FinalScene.unity
     guid: cbdb02e785bbf134b98ba05db2dce5bf
+  - enabled: 1
+    path: Assets/Levels/MiniGame.unity
+    guid: e254b36668ce24c47955f4b2861d4cd7
   m_configObjects: {}

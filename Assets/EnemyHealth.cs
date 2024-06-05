@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] public float startingHealth { get; private set; }
     [SerializeField] private EnemyHealthBar healthBar;
+    [SerializeField] public string nextSceneName;
     public float currentHealth { get; private set; }
 
     private void Awake()
@@ -22,6 +24,7 @@ public class EnemyHealth : MonoBehaviour
         if (currentHealth <= 0)
         {
             this.gameObject.SetActive(false);
+            SceneManager.LoadScene(nextSceneName, LoadSceneMode.Single);
         }
     }
 }

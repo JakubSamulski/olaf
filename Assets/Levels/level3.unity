@@ -7368,6 +7368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 2093675349}
+  nextSceneName: Levels/FinalScene
 --- !u!1 &804379408
 GameObject:
   m_ObjectHideFlags: 0

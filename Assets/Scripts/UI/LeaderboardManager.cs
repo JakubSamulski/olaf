@@ -2,6 +2,8 @@ using Dan.Main;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class LeaderboardManager : MonoBehaviour
 {
@@ -86,5 +88,10 @@ public class LeaderboardManager : MonoBehaviour
     {
       getLeaderboard();
         
+    }
+
+    public void OnBackToMenu()
+    {
+        SceneManager.LoadScene("Levels/End");
     }
 }

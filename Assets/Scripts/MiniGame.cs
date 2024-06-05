@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro; // Added for TextMeshPro
+using TMPro;
+using UnityEngine.SceneManagement; // Added for TextMeshPro
 
 public class MiniGame : MonoBehaviour
 {
@@ -68,7 +69,9 @@ public class MiniGame : MonoBehaviour
             button.image.color = Color.green;
             if (counter == 10)
             {
+                print("You win");
                 StartCoroutine(PresentResult(true));
+                SceneManager.LoadScene("Levels/Level3", LoadSceneMode.Single);
             }
         }
         else
@@ -76,6 +79,7 @@ public class MiniGame : MonoBehaviour
             StartCoroutine(PresentResult(false));
         }
     }
+   
 
     public IEnumerator PresentResult(bool win)
     {

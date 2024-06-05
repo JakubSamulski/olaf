@@ -15650,6 +15650,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -10.53
       objectReference: {fileID: 0}
+    - target: {fileID: 6701514090722897023, guid: e10ae11343661cc4f9d6cbadf5909512, type: 3}
+      propertyPath: nextSceneName
+      value: Levels/MiniGame
+      objectReference: {fileID: 0}
     - target: {fileID: 8011493615652230420, guid: e10ae11343661cc4f9d6cbadf5909512, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

@@ -67,13 +67,16 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerAttack.cs" />
     <Compile Include="Assets\CoinManager.cs" />
-    <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\EndFinalScene.cs" />
     <Compile Include="Assets\Scripts\WitchMovement.cs" />
     <Compile Include="Assets\Scripts\UI\Menu.cs" />
     <Compile Include="Assets\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Health\Health.cs" />
+    <Compile Include="Assets\Scripts\IcicleDamage.cs" />
     <Compile Include="Assets\Scripts\UI\LeaderboardManager.cs" />
     <Compile Include="Assets\Scripts\EnemyPatrol.cs" />
+    <Compile Include="Assets\Scripts\MiniGame.cs" />
+    <Compile Include="Assets\FallingSpike.cs" />
     <Compile Include="Assets\Scripts\UI\SelectionArrow.cs" />
   </ItemGroup>
   <ItemGroup>
